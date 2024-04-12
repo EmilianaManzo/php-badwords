@@ -7,10 +7,11 @@
   <title>PHP Badwords</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container p-5">
     <div class="row">
       <div class="col">
-        <form action="form-post.php" method="post">
+
+        <form action="form-get.php" method="Get">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Scrivi una parola da censurare nella tua descrizione</label>
             <input type="text" class="form-control" name="censored" id="exampleFormControlInput1" placeholder="Scrivi">
@@ -18,13 +19,15 @@
 
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Scrivi una descrizione</label>
-            <input type="text" class="form-control" name="description"  id="exampleFormControlTextarea1" placeholder="Descrizione" rows="3">
+            <input type="text" class="form-control" name="description" id="exampleFormControlTextarea1" placeholder="Descrizione" rows="3">
           </div>
 
           <div class="mb-3">  
             <button type="submit" class="btn btn-primary mb-3">Invia</button>
           </div>
+          
         </form>
+        
       </div>
     </div>
   </div>
