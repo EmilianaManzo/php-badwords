@@ -11,4 +11,4 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 ### Descrizione:
 - creo due fogli uno .html e uno . php
 - nel primo foglio creo un form dove l'utente inserirà i dati, collego il form al secondo foglio
-- nel secondo foglio dichiaro le variabili e stampo in pagina il paragrafo e la lunghezza, sostituisco una delle parole con gli asterischi con il metodo str_replace
+- nel secondo foglio dichiaro le variabili e stampo in pagina il paragrafo e la lunghezza con il metodo strlng , sostituisco una delle parole con gli asterischi con il metodo str_replace
